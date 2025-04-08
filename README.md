@@ -1,5 +1,6 @@
 ------------Guía Commits y Sincronización de Cambios------------
 
+*Tener en cuenta: Evitar el uso de correo privado para evitar errores en el terminal.
 
  *Extensiones Necesarias: Live Server 
  ¿Para que sirve?----> Visualización de la página en tiempo real. Para poder visualizarla pulsar el boton de Go Live en el Visual Studio Code  abajo a la derecha.
