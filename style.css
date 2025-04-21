@@ -1,6 +1,10 @@
 
 body {
-    background-color: rgb(195, 3, 243);
+    background-image: url('src/Fondo.png'); /* Pon aquí tu ruta */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     margin: 0;
     font-family: Arial, sans-serif;
     overflow-x: hidden; 
@@ -12,11 +16,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aquamarine;
-    background-color: #0245ff;
+    color: #864545;
+    background-color: #ffffffc0;
     padding: 20px;
     box-sizing: border-box;
     width: 100%;
+    border-radius: 15px;
+    margin:6px;
 }
 .comentariosBoton{
     width: 100%;
@@ -24,9 +30,16 @@ body {
     border-radius: 15px;
     border: 1px solid #ccc;
     font-size: 1em;
-    border-color:aquamarine;
 }
 
+.logo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
 
 .promo {   /*TAL VEZ HAGA FALTA CAMBIARLO, ESTO MODIFICA EL VIDEO*/
     width: 100%;
@@ -37,7 +50,7 @@ body {
 
 header {
     display: flex;
-    background-color: #d62828;
+    background-color: #645e5e20;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
     flex-direction: column;
@@ -66,6 +79,8 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #864545;
+    border-radius: 15px;
     gap: 40px;
     flex-wrap: nowrap;
     padding: 20px 0;
@@ -90,10 +105,10 @@ nav a:hover {
 
 
 .contenido {
-    background-color: #333;
+    background-color: #645e5e20;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 40px;
     max-width: 1200px;
@@ -118,9 +133,10 @@ main {
 aside {
     width: 30%;
     max-width: 300px;
-    background-color: rgb(43, 255, 0);
+    background-color: #864545;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 
 
@@ -140,7 +156,7 @@ footer {
     justify-content: center;
     color: white;
     max-width: 1200px;
-    background-color: #d62828;
+    background-color: #864545;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
