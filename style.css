@@ -17,3 +17,28 @@ nav a {
     margin-right: 10%;
 
 }
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    width: 70%;
+    max-width: 800px;
+}
+
+aside {
+    width: 25%;
+    max-width: 300px;
+}
+
+.subseccion{
+
+
+}
