@@ -1,23 +1,40 @@
 
+body {
+    background-color: rgb(195, 3, 243);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+
 .seccion {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: aquamarine;
+    background-color: #0245ff;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
-header{
+
+header {
     display: flex;
-    background-color: #d62828; /* rojo Pokémon 🔥 */
-    color: white;              /* texto blanco para contrastar */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562); /* Sombra al texto */
+    background-color: #d62828;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 60px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
+
 
 nav {
     display: flex;
@@ -25,24 +42,31 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-left: 20px;
     flex-wrap: nowrap;
     padding: 20px 0;
+    overflow-x: auto;
+    width: 100%;
 }
 
 nav a {
-    text-decoration: none;    /* Quita el subrayado de los enlaces*/
-    color: #333;
+    text-decoration: none;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.1em;
-    white-space: nowrap;      /* Evita que el texto se parta en pantallas pequeñas*/
-    margin: 0 auto;
-
+    white-space: nowrap;
+    padding: 10px 20px;
+    transition: background 0.3s;
 }
 
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+
 .contenido {
-    background-color: #333; /* Fondo oscuro */
-    color: white; /* Texto blanco */
+    background-color: #333;
+    color: white;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -50,19 +74,41 @@ nav a {
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
+
 
 main {
     width: 60%;
     max-width: 800px;
+    box-sizing: border-box;
 }
+
 
 aside {
-    width: 15%;
+    width: 30%;
     max-width: 300px;
+    background-color: rgb(43, 255, 0);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.subseccion{
+
+.subseccion {
+    width: 100%;
+}
 
 
+footer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    max-width: 1200px;
+    background-color: #d62828;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
 }
