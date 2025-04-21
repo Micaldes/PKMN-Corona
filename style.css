@@ -41,6 +41,16 @@ header {
     box-sizing: border-box;
 }
 
+textarea {
+    width: 100%;
+    max-width: 500px;
+    max-height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    border-color:aquamarine;
+}
 
 nav {
     display: flex;
