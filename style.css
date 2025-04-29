@@ -29,6 +29,7 @@ body {
     border-radius: 15px;
     border: 1px solid #ccc;
     font-size: 1em;
+    font-family: Arial, sans-serif;
 }
 
 .imgSeccion{
@@ -207,4 +208,15 @@ footer {
     textarea {
       width: 100%;
     }
+  }
+
+  .linea-horintal-blanca{
+
+    border: none;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5px;
+    padding: 6px;
   }
