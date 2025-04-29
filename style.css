@@ -220,3 +220,15 @@ footer {
     margin-left: 5px;
     padding: 6px;
   }
+
+  .linea-horizontal-pequeña{
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5px;
+    padding: 2px;
+  }
+
+ 
