@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'VictorianDecade';
+  src: url('src/Victorian\ Decade\ Demo\ Version.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40%;
+}
+
 body {
     background-image: url('src/Fondo.png'); /* Pon aquí tu ruta */
     background-repeat: no-repeat;
@@ -5,8 +13,11 @@ body {
     background-attachment: fixed;
     background-position: center;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     overflow-x: hidden; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
 }
 
 
@@ -29,7 +40,7 @@ body {
     border-radius: 15px;
     border: 1px solid #ccc;
     font-size: 1em;
-    font-family: Arial, sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
 }
 
 .imgSeccion{
@@ -231,4 +242,11 @@ footer {
     padding: 2px;
   }
 
- 
+ .tituloVictoriano {
+    font-family: 'VictorianDecade', serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    color: #4b1e1e;
+    letter-spacing: 1px;
+}
