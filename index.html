@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Pokemon Corona Oficial</title>
    
@@ -14,7 +17,8 @@
     <header>
         <img src="src/Pokemon_Corona_Logo.png" alt="Logo Pokémon Corona" class="imgSeccion">
         <h3>¡Viaja al pasado, captura nuevos Pokémon y... ¡hazte con todos!</h3>
-        <video class="promo" src="" controls poster="img/preview.jpg"> </video>    <!--El controls permite ver los controles del video y el poster la caratula-->
+        <video class="promo" src="src/trailer_pkmn_corona.mp4" controls poster="img/preview.jpg"> </video>    <!--El controls permite ver los controles del video y el poster la caratula-->
+        <img src="src/caratula.png" class="imgSeccion">
         <div class="donaciones">
             <!--barra de progreso de donaciones en esta linea-->
             <p>Total recaudado: 110000 € / 500000 €</p>
@@ -29,9 +33,9 @@
     <div class="contenido">
         <main>
             <div class="seccion">
-                <h2 id="CAMPAÑA">CAMPAÑA</h2>
+                <h2 id="CAMPAÑA" class="tituloVictoriano">Presentacion:</h2>
                 <div class="subseccion">
-                    <h4>HISTORIA (esto será un banner)</h4>
+                    <img src="src/bannerHistoria.png" class="imgSeccion">
                     <p>En un viaje secreto a la región vecina, el Rey de Nebu recuerda cómo llegó al trono,
                         acompañado de primeros Pokémon creados por el hombre: diseños únicos nacidos del ingenio y la ambición.
                         <br>
@@ -44,7 +48,7 @@
                 </div>
                 <br>
                 <div class="subseccion">
-                    <h4>REGIÓN (esto será un banner)</h4>
+                    <img src="src/bannerRegion.png" class="imgSeccion">
                     <p>Descubre la región de Nebu, basada en la Dinamarca del siglo XIX. Explora sus variopintas rutas, ciudades victorianas y adéntrate en mazmorras zelda-like.</p>
                     <br>
                     <img src="src/Captura_1Region.png" class="imgSeccion">
@@ -57,17 +61,39 @@
                 </div>
                 <br>
                 <div class="subseccion">
-                    <h4>POKÉMON(esto srá un banner)</h4>
-                    <p>(Descripción de los Pokémon nuevos)</p>
+                    <img src="src/bannerPokemon.png" class="imgSeccion">
                 </div>
                 <br>
                 <div class="subseccion">
-                    <h4>¡ESCOGE TU INICIAL!</h4>
-                    <p></p>
+                    <h2 class="tituloVictoriano">Escoge tu Inicial</h2>
+                    <p>Elige sabiamente entre estos tres Pokémon iniciales. Cada uno tiene habilidades únicas según su tipo elemental.</p>
+                
+                    <div class="iniciales-container">
+                        <!-- Inicial tipo agua -->
+                        <div class="inicial">
+                            <h5>Tipo Agua</h5>
+                            <img src="src/Pokemon_agua.png" alt="Pokémon Agua"  class="imgSeccion">
+                            <p>Especialista en ataques a distancia y movimientos ágiles en terrenos acuáticos.</p>
+                        </div>
+                
+                        <!-- Inicial tipo fuego -->
+                        <div class="inicial">
+                            <h5>Tipo Fuego</h5>
+                            <img src="src/Pokemon_fuego.png" alt="Pokémon Fuego"  class="imgSeccion">
+                            <p>Gran poder ofensivo, domina ataques rápidos y devastadores en combate directo.</p>
+                        </div>
+                
+                        <!-- Inicial tipo planta -->
+                        <div class="inicial">
+                            <h5>Tipo Planta</h5>
+                            <img src="src/Pokemon_planta.png" alt="Pokémon Planta"  class="imgSeccion">
+                            <p>Ideal para estrategias defensivas y control del campo con movimientos naturales.</p>
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <div class="subseccion">
-                    <h4>OBJETIVOS (esto será un banner)</h4>
+                    <img src="src/bannerObjetivos.png" class="imgSeccion">
                     <ul class="objetivos">
                         <li>elemento 1</li>
                         <li>elemento 2</li>
@@ -77,7 +103,7 @@
             </div>
             
             <div class="seccion">
-                <h2 id="PREGUNTAS">PREGUNTAS FRECUENTES</h2>
+                <h2 id="PREGUNTAS" class="tituloVictoriano">Preguntas Frecuentes</h2>
                 <ol>
                     <li>¿En qué plataformas está disponible?<ul>
                             <li>En PC con Windows y en móvil con la aplicación JoyPlay</li>
@@ -95,7 +121,7 @@
             </div>
 
             <div class="seccion">
-                <h2 id="COMENTARIOS">COMENTARIOS</h2>
+                <h2 id="COMENTARIOS" class="tituloVictoriano">Comentarios</h2>
                 <p>Introduce tu comentario:</p>
                 <textarea placeholder = "Escribe Aquí Tu Comentario..."></textarea>
                 <br>
@@ -105,10 +131,10 @@
     
         <aside>
             <div class="info">
-                <h2>INFORMACIÓN</h2>
-                <img src="src/LogoEmpresa.png" alt="SOFTWARE EXPRESS LOGO"> SOFTWARE EXPRESS
+                <h2>INFORMACION</h2>
+                <img src="src/LogoEmpresa.png" alt="SOFTWARE EXPRESS LOGO"> EXPRESS SOFTWARE
                  <hr class="linea-horintal-blanca" >
-                 <p>AQUI VA LA INFORMACION SOBRE LA EMPRESA</p>
+                 <p>INFORMACIÓN SOBRE LA EMPRESA</p>
 
                  <ul class="datos-empresa">
                     <li>📍 Dirección</li>
@@ -125,14 +151,14 @@
                       </ul>
                       <hr class=" linea-horizontal-pequeña">
 
-                      <p>Software Express es una compañía dedicada al desarrollo de experiencias. Especializados en videojuegos, Nos enfocamos en ofrecer la mayor calidad a nuestros usuarios y jugadores, creando experiencias únicas y envolventes en cada uno de nuestros proyectos.
+                      <p>Express Software es una compañía dedicada al desarrollo de experiencias. Especializados en videojuegos, Nos enfocamos en ofrecer la mayor calidad a nuestros usuarios y jugadores, creando experiencias únicas y envolventes en cada uno de nuestros proyectos.
                         <hr class=" linea-horizontal-pequeña">
                         <p><strong>Misión:</strong> Crear experiencias digitales que conecten y entretengan a los usuarios.</p>
                         <p><strong>Valores:</strong> Creatividad, compromiso, innovación y trabajo en equipo.</p>
 
                         <hr class=" linea-horizontal-pequeña">
                         
-                        <p>© 2025 Software Express. Todos los derechos reservados.</p>
+                        <p>© 2025 Express Software. Todos los derechos reservados.</p>
             </div> 
         </aside>
 
