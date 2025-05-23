@@ -2,6 +2,7 @@ body {
     background-image: url('src/Fondo.png'); /* Pon aquí tu ruta */
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content:center;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
