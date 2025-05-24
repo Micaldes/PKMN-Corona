@@ -266,7 +266,7 @@ footer {
     font-size: 3em;
     font-weight: 700;
     text-align: center;
-    color: #4b1e1e;
+    color: #864545;
     letter-spacing: 1px;
 }
 
@@ -287,4 +287,10 @@ footer {
 
 .planta h5{
   color: #19974f;
+}
+
+.icono{
+  width: 2em;
+  vertical-align: middle;
+  height: auto;
 }
